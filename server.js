@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const path = require('path');
-const PORT = 3000; // You can change the port if needed
+const PORT = 3001; // You can change the port if needed
 
 // Serve the script.js file
 app.get('/ITC505/lab-7/script.js', (req, res) => {
