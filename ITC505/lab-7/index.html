@@ -66,8 +66,14 @@
     </ul>
   </div>
   <footer>
-    <p class="footer-text">Last updated: <span id="lastModified"></span></p>
-  </footer>
+        <p>Last updated: 
+            <span id="lastModified"></span>
+        </p>
+    </footer>
+    <script type="text/javascript">
+         var x = document.lastModified;
+         document.getElementById('lastModified').textContent = x;
+    </script>
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       var lastModified = document.lastModified;
